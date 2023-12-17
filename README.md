@@ -1,5 +1,4 @@
-# Nome do Projeto
-Data Science Independent Project #1 – Watching the Stock Market
+# Data Science Independent Project #1 – Watching the Stock Market
 
 ## Descrição
 Este projeto foi desenvolvido como parte de um curso de consultas SQL na plataforma Codecademy. O objetivo era praticar habilidades de análise de dados utilizando consultas SQL para obter informações sobre o mercado de ações. O projeto abrangeu desde a obtenção dos dados até a realização de análises e visualizações relevantes. Durante o projeto, foram aplicados conceitos como seleção, filtragem, ordenação e agregação de dados para extrair insights valiosos do mercado de ações. Este projeto serviu como uma oportunidade para aprimorar as habilidades em SQL e adquirir experiência prática na análise de dados financeiros.
@@ -120,18 +119,18 @@ Em seguida, criei a tabela no banco de dados, utilizando o SQLite.
 
 ```sql
 CREATE TABLE stocks (
-				symbol TEXT,
-				name TEXT,
-				datetime TEXT
-				price NUMERIC
-			);
+	symbol TEXT,
+	name TEXT,
+	datetime TEXT,
+	price NUMERIC
+);
 ```
 
 E adicionei os dados acima:
 
 ```sql
 INSERT INTO stocks (symbol, name, datetime, price)
-		  VALUES (...);
+    VALUES (...);
 ```
 
 Em seguida, respondi as seguintes perguntas do projeto:
